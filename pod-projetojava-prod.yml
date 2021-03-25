@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: validadorcpf
+  name: validadorcpf-prod
   labels:
-    app: label-pod-validadorcpf-dev
+    app: label-pod-validadorcpf-prod
 spec:
   containers:
-    - name: container-pod-validadorcpf-dev
+    - name: container-pod-validadorcpf-prod
       image: concreteanaamarante/validador-cpf-java
       ports:
-        - containerPort: 8082
+        - containerPort: 8084

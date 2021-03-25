@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: validadorcpf
+  name: validadorcpf-qa
   labels:
     app: label-pod-validadorcpf-dev
 spec:
