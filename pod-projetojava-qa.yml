@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: validadorcpf-qa
   labels:
-    app: label-pod-validadorcpf-dev
+    app: label-pod-validadorcpf-qa
 spec:
   containers:
-    - name: container-pod-validadorcpf-dev
+    - name: container-pod-validadorcpf-qa
       image: concreteanaamarante/validador-cpf-java
       ports:
         - containerPort: 8081
