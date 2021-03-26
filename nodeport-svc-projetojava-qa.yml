@@ -7,5 +7,5 @@ spec:
   selector:
     app: label-pod-validadorcpf-dev
   ports:
-    - port: 8083
-      nodePort: 30013 #até 32767
+    - port: 8081
+      nodePort: 30011 #até 32767

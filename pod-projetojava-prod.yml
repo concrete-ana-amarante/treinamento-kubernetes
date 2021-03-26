@@ -9,4 +9,4 @@ spec:
     - name: container-pod-validadorcpf-prod
       image: concreteanaamarante/validador-cpf-java
       ports:
-        - containerPort: 8084
+        - containerPort: 8081
